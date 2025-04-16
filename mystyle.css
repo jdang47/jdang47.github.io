@@ -1,0 +1,79 @@
+/* 
+Day 34 CSS - cascading style sheets 
+*/
+
+/* Style for the horizontal line */
+hr {
+    border: none;              /* Remove default border */
+    height: 2px;               /* Set line thickness */
+    background-color: #333;    /* Set color of the line (e.g., #333 for dark gray) */
+    width: 50%;                /* Set the width of the line */
+    margin: 20px auto;         /* Center the line horizontally, with space around it */
+}
+
+/* style <h1> tag headlines as red and centered */
+h1 {
+    color: rgb(255, 0, 0);     /* Set color to red */
+    text-align: center;      /* Align text in the center */
+}
+
+/* Style <body> */
+body {
+    background-color: #f0f0f0; /* Change the background color using HEX format */
+}
+
+/* Style <p> paragraph text as blue, italic, 14pt */
+p {
+    color: blue;               /* Set text color to blue */
+    font-style: italic;        /* Make text italic */
+    font-size: 14pt;           /* Set font size to 14pt */
+}
+
+/* Style <img> */
+img {
+    border: 2px solid #000;    /* Set border width, style, and color (e.g., black solid 2px) */
+}
+
+/* Style <a> tag state: hover */
+a:hover {
+    color: black;              /* Change color on hover to black */
+    font-size: 24pt;           /* Increase font size on hover */
+}
+
+/* Style <h1> tag with id="mypgTitle" as bold, 20pt, centered, and normal font style */
+#mypgTitle {
+    font-weight: bold;
+    font-size: 20pt;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Style <p> tag with id="myPara" as bold, 14pt, and normal font style */
+#myPara {
+    font-weight: bold;
+    font-size: 14pt;
+    font-style: normal;
+}
+
+/* Style <div> tag with id="w3schools" as background light blue */
+#w3schools {
+    background-color: rgb(192, 192, 255);  /* Set light blue background */
+}
+
+/* Style <td> table cells with 2-pixel wide, solid, gold border */
+td {
+    border: 2px solid gold;    /* Set border width, style, and color */
+}
+
+/* Style <a> hyperlink tag states: hover, link, visited */
+a:link {
+    color: blue;               /* Set initial link color */
+}
+a:visited {
+    color: purple;             /* Set color for visited links */
+}
+
+/* Add to id="w3schools" a custom background color */
+#w3schools {
+    background-color: rgb(173, 216, 230); /* Set to a light blue color */
+}
